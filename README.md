@@ -2,6 +2,19 @@
 
 This project is a fork of the original RNCryptor project, because openSSL support has been removed after version 2.2.
 
+Push new pod version protocol
+=====================
+
+1. Switch branch to openSSL
+2. Update tag version in ```RNOpenSSLCryptor.podspec```
+3. Update Changelog.md
+3. Commit
+4. Create new local tag : ```git tag RNOpenSSLCryptor-2.X -a -m "New Tag"```
+5. Push tag : ```git push --tags```
+6. Push master branch
+7. Deploy new pod ```pod repo push youboox RNOpenSSLCryptor.podspec --use-libraries --allow-warnings```
+8. Update RNOpenSSLCryptor pod in your project : ```pod update RNOpenSSLCryptor```
+
 # RNCryptor
 
 Cross-language AES Encryptor/Decryptor [data
