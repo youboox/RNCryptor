@@ -1,3 +1,7 @@
+# Version 2.3
+
+Remove unnecessary use of the C function `SecRandomCopyBytes` because it produce a Duplicate Symbol error since Xcode 9.
+
 # Version 2.2
 
 Version 2.2 is a fairly large release. It's been almost a year since 2.1 came out, and there are many small and large bug fixes.

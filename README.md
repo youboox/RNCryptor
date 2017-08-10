@@ -1,3 +1,7 @@
+# RNOpenSSLCryptor
+
+This project is a fork of the original RNCryptor project, because openSSL support has been removed after version 2.2.
+
 # RNCryptor
 
 Cross-language AES Encryptor/Decryptor [data
